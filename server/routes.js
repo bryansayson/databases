@@ -7,5 +7,6 @@ for (var route in controllers) {
     .post(controllers[route].post);
 }
 
+//router.route("/classes/messages").get(controllers["messages"].get).post(controllers["messages"].post);
+//router.route("/classes/users").get(controllers["users"].get).post(controllers["users"].post);
 module.exports = router;
-
